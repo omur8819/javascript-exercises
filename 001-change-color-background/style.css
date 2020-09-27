@@ -1,3 +1,19 @@
-button {
-    margin-top: 50vh
+.col{
+    text-align: center;
+    margin-top: 300px;
+    
+}
+.btn{
+    width: 200px;
+    height: 100px;
+    color: white;
+    background-color: orangered;
+    font-size: 40px;
+    font-family: 'Comic Neue', cursive;
+    border: 5px solid orange;
+    border-radius: 5px;
+
+}
+.btn:hover{
+    cursor: pointer;
 }
