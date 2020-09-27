@@ -1,10 +1,9 @@
 .col{
     text-align: center;
-    margin-top: 300px;
-    
+    margin-top: 300px;  
 }
 .btn{
-    width: 200px;
+    width: 220px;
     height: 100px;
     color: white;
     background-color: orangered;
