@@ -3,7 +3,7 @@
   const quotes = [
     {
       quote:
-        "Life is too short and sweet to be spent by cribbing and complaining about things. Here are some random quotes about the most wonderful gift that we've got",
+        "Life is too short and sweet to be spent by complaining about things. Here are some random quotes about the most wonderful gift that we've got",
       author: " Life"
     },
     {
@@ -31,7 +31,6 @@
       author: " Tyne Daly"
     }
   ];
-
   const btn = document.getElementById("generate-btn");
 
   btn.addEventListener("click", function() {
