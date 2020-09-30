@@ -27,12 +27,6 @@ var NAMESPACE_IDENTIFIER = '___FONT_AWESOME___';
 
 
 
-
-
-
-
-
-
 var PRODUCTION = function () {
   try {
     return "production" === 'production';
