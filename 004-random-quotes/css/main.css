@@ -6,7 +6,9 @@ body {
 }
 .quote-container {
   background: rgba(255, 255, 255, 0.5);
+  color: #333333;
 }
+
 #generate-btn {
   color: white !important;
   background: #64b6ad !important;
