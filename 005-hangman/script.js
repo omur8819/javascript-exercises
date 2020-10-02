@@ -131,4 +131,5 @@ class Hangman {
 }
 
 
+
 let hango = new Hangman(["PYTHON", "JAVASCRIPT", "HTML", "REACT", "CSS", "OSCAR", "CLARUSWAY"]);
