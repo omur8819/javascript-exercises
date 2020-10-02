@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Hangman Game</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+    </style>
+  </head>
+
+  <body onkeydown="hango.enterInput(event)">
+    <h1>Hangman</h1>
+    <p id="desc">Find the hidden word - Enter a letter</p>
+
+    <div id="mainContent">
+      <svg id="scaffold" height="210" width="165">
+        <line
+          x1="40"
+          y1="0"
+          x2="40"
+          y2="200"
+          style="stroke: white; stroke-width: 5"
+        />
+        <line
+          x1="0"
+          y1="200"
+          x2="80"
+          y2="200"
+          style="stroke: white; stroke-width: 5"
+        />
+        <line
+          x1="40"
+          y1="0"
+          x2="130"
+          y2="0"
+          style="stroke: white; stroke-width: 5"
+        />
+        <line
+          x1="130"
+          y1="0"
+          x2="130"
+          y2="35"
+          style="stroke: white; stroke-width: 5"
+        />
+      </svg>
+      <div id="notify">
+        <p id="message"></p>
+        <p>Entered Letters:</p>
+        <p id="enteredLetters"></p>
+      </div>
+    </div>
+
+    <div id="inputSection">
+    </div>
+  </body>
+</html>
